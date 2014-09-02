@@ -1,0 +1,43 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted, see the
+# S3E documentation for details.
+
+[S3E]
+MemSize=50000000
+SysGlesVersion=2
+WinPosX=64
+WinPosY=16
+DispFixRot=FixedPortrait
+
+[GL]
+AllowNegativeUniformLocation=1
+#VirtualWidth=320
+#VirtualHeight=480
+#VirtualResolution=1
+#VirtualLetterbox=1
+
+# Uncomment this to auto generate shader binaries for use on WP8
+#[GL]
+#{OS=WINDOWS}
+#PreCompileShaderBinaries=1
+#{}
+
+[GX]
+DataCacheSize=131072
+
+[SOUND]
+MaxChannels=16

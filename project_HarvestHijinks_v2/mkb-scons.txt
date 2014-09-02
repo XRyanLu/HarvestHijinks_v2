@@ -1,0 +1,2 @@
+SCONS;build_harvesthijinks_v2_scons_x86;
+SCONS;build_harvesthijinks_v2_scons_arm;

@@ -1,0 +1,61 @@
+#!/usr/bin/env mkb
+options
+{
+    module_path="modules"
+}
+
+subprojects
+{
+    iw2d
+    iw2dscenegraph
+    iw2dscenegraphcore
+    iwtween
+    SoundEngine
+}
+
+files
+{
+    [source]
+    (source)
+    audio.cpp
+    explosion.cpp
+    game.cpp
+    gem.cpp
+    grid.cpp
+    input.cpp
+    main.cpp
+    mainMenu.cpp
+    pauseMenu.cpp
+    resources.cpp
+    scene.cpp
+    timer.cpp
+
+    audio.h
+    explosion.h
+    game.h
+    gem.h
+    grid.h
+    input.h
+    main.h
+    mainMenu.h
+    pauseMenu.h
+    resources.h
+    scene.h
+    timer.h
+}
+
+assets
+{
+    (data)
+    audio
+    textures
+
+    (data-ram/data-gles1, data)
+    .
+
+}
+deployments
+{
+    version = "1.0.0"
+}
+
